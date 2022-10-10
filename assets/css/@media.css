@@ -1,0 +1,53 @@
+@media (min-width:425px) and (max-width: 532px) {
+    .area-botao a {
+        padding: 10px 140px;
+    }
+    .footer-text {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media (min-width:375px) and (max-width: 424px) {
+    .area-botao a {
+        padding: 10px 100px;
+    }
+
+    .text-area h1 {
+        font-size: 40px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+    .footer-text {
+        font-size: 18px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+}
+@media (min-width:320px) and (max-width: 374px) {
+    .area-botao a {
+        padding: 10px 80px;
+    }
+
+    .text-area h1 {
+        font-size: 35px;
+    }
+
+    .text-area span {
+        font-size: 15px;
+        padding: 20px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+    .footer-text {
+        font-size: 16px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+}

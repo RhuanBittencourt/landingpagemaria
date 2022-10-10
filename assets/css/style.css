@@ -1,0 +1,119 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background: linear-gradient(231deg, #545557 2%, #5f98e2 29%, #5f98e2 52%, #545557 85%);
+    background-attachment: fixed;
+
+}
+
+.container {
+    max-width: 1024px;
+    margin: auto;
+}
+
+header .logo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid #ffff;
+}
+
+
+header {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.text-area {
+    color: #fff;
+    font-family: sans-serif;
+    
+}
+
+.text-area h1 {
+    font-size: 45px;
+    line-height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: #000 2px 3px 10px;
+}
+.area-botao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.area-botao a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: #023052;
+    background-position: bottom;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+    padding: 10px 200px;
+    margin: auto;
+    margin-bottom: 20px;
+    
+}
+
+.area-botao a:hover {
+    animation: myAnim 2s cubic-bezier(0.76, 0, 0.24, 1) 0s 1 normal forwards;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+.footer-text {
+    color: #000;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
