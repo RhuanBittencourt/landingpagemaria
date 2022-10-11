@@ -69,8 +69,12 @@ header {
     
 }
 
+.area-botao .zap {
+    animation: myAnim 2s ease 0s infinite normal none;
+}
+
 .area-botao a:hover {
-    animation: myAnim 2s cubic-bezier(0.76, 0, 0.24, 1) 0s 1 normal forwards;
+    animation: myAnim2 2s cubic-bezier(0.76, 0, 0.24, 1) 0s 1 normal forwards;
 }
 
 footer {
@@ -88,7 +92,33 @@ footer {
     text-decoration: none;
     color: #000;
 }
+@keyframes myAnim2 {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
 
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
 
 @keyframes myAnim {
 	0% {
